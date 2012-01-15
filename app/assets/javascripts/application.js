@@ -7,3 +7,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require twitter/bootstrap
+
+$(document).ready(function(){
+  $('a.lightbox').lightBox({
+      fixedNavigation:true,
+      imageLoading: "<%= asset_path 'lightbox-ico-loading.gif' %>",
+      imageBtnPrev: "<%= asset_path 'lightbox-btn-prev.gif' %>",
+      imageBtnNext: "<%= asset_path 'lightbox-btn-next.gif' %>",
+      imageBtnClose: "<%= asset_path 'lightbox-btn-close.gif' %>",
+      imageBlank: "<%= asset_path 'lightbox-blank.gif' %>",
+  });
+});
