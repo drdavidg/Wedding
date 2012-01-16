@@ -1,4 +1,19 @@
 class PagesController < ApplicationController
+
+  def info
+    
+  end
+  
+  def home
+  end
+  
+  def albums
+  end
+  
+  def registry
+  end
+  
+  
   # GET /pages
   # GET /pages.json
   def index

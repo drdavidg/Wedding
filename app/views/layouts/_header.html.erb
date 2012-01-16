@@ -1,13 +1,12 @@
 <div class="topbar">
      <div class="fill">
        <div class="container">
-           <li class="brand"><%= link_to "Ksenia & David Wedding Website", "#" %></li>
+           <li class="brand"><%= link_to "Ksenia & David Wedding Website", root_path %></li>
          <ul class="nav">
-           <li class="active"><a href="#">Home</a></li>
-           <li><%= link_to "Wedding Party", "#" %></li>
-           <li><%= link_to "Photo Albums", "#" %></li>
-		   <li><%= link_to "Events", "#" %></li>
-		   <li><%= link_to "Gift Registry", "#" %></li>
+           <li class="active"><%= link_to "Home", root_path %></li>
+           <li><%= link_to "Wedding Info", info_path %></li>
+           <li><%= link_to "Photo Albums", albums_path %></li>
+		   <li><%= link_to "Gift Registry", registry_path %></li>
          </ul>
        </div>
      </div>

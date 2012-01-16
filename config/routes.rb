@@ -1,6 +1,13 @@
 Wedding::Application.routes.draw do
   resources :pages
-  root :to => 'pages#show'
+
+  match 'info', :to => 'pages#info'
+  match 'albums', :to => 'pages#albums'
+  match 'registry', :to => 'pages#registry'
+
+  root :to => 'pages#index'
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
