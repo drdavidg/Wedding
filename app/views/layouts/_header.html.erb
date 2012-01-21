@@ -3,10 +3,10 @@
        <div class="container">
            <li class="brand"><%= link_to "Ksenia & David Wedding Website", root_path %></li>
          <ul class="nav">
-           <li class="active"><%= link_to "Home", root_path %></li>
-           <li><%= link_to "Wedding Info", info_path %></li>
-           <li><%= link_to "Photo Albums", albums_path %></li>
-		   <li><%= link_to "Gift Registry", registry_path %></li>
+           <li class="<%= "active" if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
+           <li class="<%= "active" if current_page?(info_path) %>"><%= link_to "Wedding Info", info_path %></li>
+           <li class="<%= "active" if current_page?(albums_path) %>"><%= link_to "Photo Albums", albums_path %></li>
+		   <li class="<%= "active" if current_page?(registry_path) %>"><%= link_to "Gift Registry", registry_path %></li>
          </ul>
        </div>
      </div>

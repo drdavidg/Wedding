@@ -1,58 +1,15 @@
-<div class="content">
 <h1>Photo Albums <small>Fun times and Travels</small></h1>
 
-<div id="featured"> 
-     <img src="https://lh4.googleusercontent.com/-nKMT0qPlDNs/Tjh_ld36WrI/AAAAAAACoGA/HN5OztrWBwE/s640/IMG_0080.JPG" alt="Overflow: Hidden No More" />
-     <img src="https://lh4.googleusercontent.com/-vApbStzVLPo/Tjh_lTja_NI/AAAAAAACoGA/iGg0fsptlWw/s144/IMG_0333%252520%2525282%252529.JPG"  alt="HTML Captions" />
-
+<div id="featured-slider"> 
+      <%= image_tag(asset_path("slidepics/1.JPG")) %>
+      <%= image_tag(asset_path("slidepics/2.JPG")) %>
 </div>
 
-</br>
-
-<div class="slider-wrapper theme-default">
-    <div class="ribbon"></div>
-    <div id="slider" class="nivoSlider">
-<img src="https://lh4.googleusercontent.com/-S62qe8OENIQ/Tjh_lcr-fJI/AAAAAAACoGA/j5eKj165iUM/s400/IMG_0219.JPG" alt="" />
-<img src="https://lh4.googleusercontent.com/-S62qe8OENIQ/Tjh_lcr-fJI/AAAAAAACoGA/j5eKj165iUM/s400/IMG_0219.JPG" alt="" />
-</div>
-</div>
-</div>
-
-</br></br></br>
-
-<div id="gallery">
-	<img src="https://lh4.googleusercontent.com/-S62qe8OENIQ/Tjh_lcr-fJI/AAAAAAACoGA/j5eKj165iUM/s400/IMG_0219.JPG" alt="" />
-	<img src="https://lh4.googleusercontent.com/-S62qe8OENIQ/Tjh_lcr-fJI/AAAAAAACoGA/j5eKj165iUM/s400/IMG_0219.JPG" alt="" />
-
-</div>
+Hello 
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#featured-slider').orbit();
+	});
+</script>
 
 
-<div id="slider" class="nivoSlider">
-    <img src="https://lh4.googleusercontent.com/-nKMT0qPlDNs/Tjh_ld36WrI/AAAAAAACoGA/HN5OztrWBwE/s640/IMG_0080.JPG" alt="" />
-    <a href="http://dev7studios.com"><img src="https://lh4.googleusercontent.com/-vApbStzVLPo/Tjh_lTja_NI/AAAAAAACoGA/iGg0fsptlWw/s144/IMG_0333%252520%2525282%252529.JPG" alt="" title="#htmlcaption" /></a>
-    <a href="http://dev7studios.com"><img src="https://lh4.googleusercontent.com/-vApbStzVLPo/Tjh_lTja_NI/AAAAAAACoGA/iGg0fsptlWw/s144/IMG_0333%252520%2525282%252529.JPG" alt="" title="#htmlcaption" /></a>
-</div>
-<div id="htmlcaption" class="nivo-html-caption">
-    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-</div>
-
-
-
-<div id="gallery" class="nivoGallery">
-    <ul>
-        <li data-title="This is an Image Slide" data-caption="Put a caption in here">
-            <img src="https://lh4.googleusercontent.com/-S62qe8OENIQ/Tjh_lcr-fJI/AAAAAAACoGA/j5eKj165iUM/s400/IMG_0219.JPG" alt="" />
-        </li>
-        <li data-title="This is an Image Slide" data-caption="Put a caption in here">
-            <img src="https://lh4.googleusercontent.com/-nKMT0qPlDNs/Tjh_ld36WrI/AAAAAAACoGA/HN5OztrWBwE/s640/IMG_0080.JPG" alt="" />
-        </li>
-
-
-    </ul>
-</div>
-
-
-
-
-
-</div>

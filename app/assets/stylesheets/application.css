@@ -3,13 +3,7 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require galleria.classic
- *= require nivo-slider
- *= require nivo-default
- *= require coin-slider-styles
- *= require orbit-1.2.3
- *= require nivo-gallery
- *= require_tree . 
+ *= require_tree .
  *= require twitter/bootstrap
 
 */
