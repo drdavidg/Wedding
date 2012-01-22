@@ -3,8 +3,11 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
 	<div class="row">
 		<div class="hero-unit">
-				<div class="span7 pull-right">
-
+				<div class="span6 pull-right">
+					<div id="featured-slider"> 
+						<%= image_tag("https://lh5.googleusercontent.com/-kuujRGYnOiY/Tjh_lWxfkXI/AAAAAAACoGA/MGHZhKRdtYQ/s288/IMG_0312%252520%2525282%252529.JPG") %>
+						<%= image_tag("https://lh4.googleusercontent.com/-BnYP-S1SW5U/Tjh_lXUGPWI/AAAAAAACoGA/HVdK2nRencY/s288/IMG_0011.JPG") %>
+					</div>
 					
 	  	  		</div>
 
@@ -43,3 +46,10 @@
       </footer>
 
     </div> <!-- /container -->
+
+
+	<script>
+	$(window).load(function() {
+		$('#featured-slider').orbit();
+	});
+	</script>
