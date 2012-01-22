@@ -5,15 +5,9 @@
 // the compiled file.
 //= require jquery-1.5.1
 //= require jquery_ujs
-//= require galleria.classic
 //= require bootstrap-twipsy
 //= require bootstrap-popover
 //= require_tree .
-
-
-
-
-
 
 $(document).ready(function(){
 
