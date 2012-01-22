@@ -5,6 +5,7 @@
 // the compiled file.
 //= require jquery-1.5.1.min
 //= require jquery_ujs
+//= require galleria.classic.min
 //= require bootstrap-twipsy
 //= require bootstrap-popover
 //= require_tree .
