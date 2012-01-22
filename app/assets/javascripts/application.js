@@ -6,6 +6,7 @@
 //= require jquery-1.5.1.min
 //= require jquery_ujs
 //= require galleria.classic.min
+//= require galleria-1.2.6
 //= require bootstrap-twipsy
 //= require bootstrap-popover
 //= require_tree .
