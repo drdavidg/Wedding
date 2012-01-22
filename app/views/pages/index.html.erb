@@ -14,7 +14,7 @@
 
 		<div class="span7">
 	       <h1>Our Wedding</h1></br>
-	       <p>Ksenia Milovanova & David Gonen </br>March 25th, 2012 </br>Beverly Hills Hotel</p>
+	       <p>Ksenia Milovanova & David Gonen </br>Sunday March 25th, 2012 </br>Beverly Hills Hotel</p>
 	       <p><%= link_to "Read More &raquo;".html_safe, info_path, :class => "btn primary large" %></p>
 		</div>
 
@@ -27,16 +27,19 @@
         <div class="span-one-third">
           <h2>Wedding Information</h2>
           <p>Will be held at the Beverly Hills Hotel on Sunday March 25, 2012</p>
+			<%= image_tag("images/Wedding-Bouquet1.JPG", :size => "150x150") %>
           <p><%= link_to "Click for more &raquo;".html_safe, info_path, :class => "btn" %></p>
         </div>
         <div class="span-one-third">
           <h2>Photo Albums</h2>
            <p>See pics of David & Ksenia.  Their travels and life together so far. </p>
+			<%= image_tag("images/vintage-wedding-photo-albums.JPG", :size => "150x150") %>
           <p><%= link_to "Click for more &raquo;".html_safe, albums_path, :class => "btn" %></p>
        </div>
         <div class="span-one-third">
           <h2>Gift Registry</h2>
           <p>Click to browse where Ksenia and David are registered for gifts.</p>
+			<%= image_tag("images/box-present.JPEG", :size => "150x150") %>
           <p><%= link_to "Click for more &raquo;".html_safe, registry_path, :class => "btn" %></p>
         </div>
       </div>
