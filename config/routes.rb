@@ -4,6 +4,7 @@ Wedding::Application.routes.draw do
   match 'info', :to => 'pages#info'
   match 'albums', :to => 'pages#albums'
   match 'registry', :to => 'pages#registry'
+  match 'checkout', :to => 'pages#checkout'
 
   root :to => 'pages#index'
 

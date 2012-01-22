@@ -1,5 +1,44 @@
 class PagesController < ApplicationController
 
+
+
+  #  def checkout
+  #   
+  #     # get the credit card details submitted by the form
+  #     token = params[:stripeToken]
+  # 
+  #     # set your secret key: remember to change this to your live secret key in production
+  #     # see your keys here https://manage.stripe.com/account
+  #     Stripe.api_key = "Vp2kU6UwYrSX2PM47jsxARw69pXQyuGO"
+  # 
+  #     # create a Customer
+  #     customer = Stripe::Customer.create(
+  #     :card => token,
+  #     :description => "payinguser@example.com"
+  #     )
+  # 
+  #     # charge the Customer instead of the card
+  #     Stripe::Charge.create(
+  #     :amount => 1000, # in cents
+  #     :currency => "usd",
+  #     :customer => customer.id
+  #     )
+  # 
+  #     # save the customer ID in your database so you can use it later
+  #     save_stripe_customer_id(user, customer.id)
+  # 
+  #     # later
+  #     customer_id = get_stripe_customer_id(user)
+  # 
+  #     Stripe::Charge.create(
+  #     :amount => 1500, # $15.00 this time
+  #     :currency => "usd",
+  #     :customer => customer_id
+  #     )
+  # 
+  # end
+
+
   def info
     
   end

@@ -5,6 +5,8 @@
 // the compiled file.
 //= require jquery-1.5.1.min
 //= require jquery_ujs
+//= require bootstrap-twipsy
+//= require bootstrap-popover
 //= require_tree .
 
 
@@ -20,6 +22,9 @@ $(document).ready(function(){
       imageBlank: "<%= asset_path 'lightbox-blank.gif' %>",
   });
 });
+
+
+
 
 
 

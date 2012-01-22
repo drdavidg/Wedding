@@ -21,7 +21,7 @@
 		
      </div>
 
-	
+
       <!-- Example row of columns -->
       <div class="row">
         <div class="span-one-third">
@@ -36,7 +36,7 @@
        </div>
         <div class="span-one-third">
           <h2>Gift Registry</h2>
-          <p>Click to browse the wedding registry options.</p>
+          <p>Click to browse where Ksenia and David are registered for gifts.</p>
           <p><%= link_to "Click for more &raquo;".html_safe, registry_path, :class => "btn" %></p>
         </div>
       </div>
@@ -48,8 +48,14 @@
     </div> <!-- /container -->
 
 
+
 	<script>
 	$(window).load(function() {
-		$('#featured-slider').orbit();
+		$('#featured-slider').orbit({
+		        bullets: false,
+		        animation: 'horizontal-slide',
+				directionalNav: false,
+				timer: true
+		  });
 	});
 	</script>

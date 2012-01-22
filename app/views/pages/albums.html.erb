@@ -1,16 +1,56 @@
 <h1>Photo Albums <small>Fun times and Travels</small></h1>
+<!--
+	
 
 <div id="featured-slider"> 
 	<%= image_tag("https://lh4.googleusercontent.com/-C_oBmEb-toI/Tjh_CtMt0UI/AAAAAAACoFo/_I7wysi4KsY/s800/DSC04746.JPG") %>
-	<%= image_tag("https://lh4.googleusercontent.com/-H4R3TCfToGk/Tjh_lZTO3fI/AAAAAAACoGA/7CUB1wARyQA/s400/IMG_0754%252520%2525282%252529.JPG") %>
+	<%= image_tag("https://lh4.googleusercontent.com/-H4R3TCfToGk/Tjh_lZTO3fI/AAAAAAACoGA/7CUB1wARyQA/s800/IMG_0754%252520%2525282%252529.JPG") %>
 	<%= image_tag("https://lh4.googleusercontent.com/-C_oBmEb-toI/Tjh_CtMt0UI/AAAAAAACoFo/_I7wysi4KsY/s800/DSC04746.JPG") %>
 	<%= image_tag("https://lh4.googleusercontent.com/-C_oBmEb-toI/Tjh_CtMt0UI/AAAAAAACoFo/_I7wysi4KsY/s800/DSC04746.JPG") %>	
 </div>
-
+-->
 
 
 <script>
 $(window).load(function() {
 	$('#featured-slider').orbit();
 });
+</script>
+
+
+
+
+
+<div id="gallery">
+    <img src="/assets/slidepics/1.JPG">
+    <img src="/assets/slidepics/2.JPG">
+	<%= image_tag("https://lh4.googleusercontent.com/-H4R3TCfToGk/Tjh_lZTO3fI/AAAAAAACoGA/7CUB1wARyQA/s800/IMG_0754%252520%2525282%252529.JPG") %>
+	<%= image_tag("https://lh4.googleusercontent.com/-C_oBmEb-toI/Tjh_CtMt0UI/AAAAAAACoFo/_I7wysi4KsY/s800/DSC04746.JPG") %>
+	<%= image_tag("https://lh4.googleusercontent.com/-H4R3TCfToGk/Tjh_lZTO3fI/AAAAAAACoGA/7CUB1wARyQA/s400/IMG_0754%252520%2525282%252529.JPG") %>
+</div>
+
+
+
+
+
+<!--
+<div id="galleria">
+	<img src="/assets/slidepics/1.JPG">
+    <img src="/assets/slidepics/2.JPG">
+</div>-->
+
+
+
+
+<script>
+Galleria.loadTheme('/assets/theme/galleria.classic.min.js');
+            $("#gallery").galleria({
+                width: 1000,
+                height: 600, 
+				autoplay: 3000, 
+				lightbox: true,
+				imagePan: true,
+				overlayBackground: '#FFFFF2',
+				transition: 'fadeslide'
+            });
 </script>
